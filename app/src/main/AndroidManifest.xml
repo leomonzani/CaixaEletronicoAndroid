@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="leomonzani.caixaeletronico">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".SaqueActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".OutroValorActivity" />
+        <activity android:name=".SaldoActivity" />
+        <activity android:name=".TransferenciaActivity" />
+        <activity android:name=".DebAutoActivity" />
+        <activity android:name=".ExtratoActivity" />
+        <activity android:name=".ExtNotasActivity" />
+        <activity android:name=".ExtMovimentacaoActivity"/>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".MenuAdmActivity"/>
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+</manifest>

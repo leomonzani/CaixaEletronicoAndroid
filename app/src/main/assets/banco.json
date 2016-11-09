@@ -1,0 +1,29 @@
+[
+    {
+      "id": "2",
+      "nome": "Leonardo Monzani Martins",
+      "tipo_conta": "1",
+      "agencia": "773",
+      "conta": "66664",
+      "senha": "261095",
+      "saldo": "1000"
+    },
+	{
+      "id": "1",
+      "nome": "Paulo Aragão",
+      "tipo_conta": "1",
+      "agencia": "6969",
+      "conta": "19699",
+      "senha": "691969",
+      "saldo": "1000"
+    },
+	{
+      "id": "0",
+      "nome": "ADM",
+      "tipo_conta": "2",
+      "agencia": "0000",
+      "conta": "000000",
+      "senha": "101010",
+      "saldo": "0"
+    }
+]
